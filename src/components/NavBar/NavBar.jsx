@@ -1,22 +1,4 @@
-// import React from 'react'
-// import CartWidget from '../CartWidget/CartWidget'
-// const NavBar = () => {
-//   return (
-//     <div>
-//         <nav>
-//             <ul>
-//                 <li>home</li>
-//                 <li>terror</li>
-//                 <li>drama</li>
-//                 <li>comedia</li>
-//             </ul>
-//         </nav>
-//         {/* <CartWidget /> */}
-//     </div>
-//   )
-// }
 
-// export default NavBar
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -25,12 +7,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function BasicExample() {
+function menu() {
   return (
     <div>
     <Navbar bg="light" expand="xl">
       <Container>
-        <Navbar.Brand href="#home">CINELIFE</Navbar.Brand>
+        <Navbar.Brand href="#home">CINELIFES</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -62,4 +44,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default menu;
