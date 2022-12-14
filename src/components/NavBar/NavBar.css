@@ -1,0 +1,7 @@
+.navbar{
+    background-color: blanchedalmond;
+    min-height: 100px;
+}
+.navbar__menu{
+    margin: 16px;
+}
