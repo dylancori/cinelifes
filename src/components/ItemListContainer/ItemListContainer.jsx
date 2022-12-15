@@ -13,18 +13,18 @@ const ItemListContainer = () => {
             setTimeout(()=>{
                 const newPelicula = peliculas.filter((p)=> p.category == id)
                 resolve(newPelicula);
-            },1000)
+            },500)
         } else {
             resolve(peliculas);
-        }
+        }  
 
     })
 
     useEffect(()=>{
         FilterCategory.then((response)=>{
             setItem(response)
-        })
-    },[id])
+      })
+},[id])
   return (
     <div>
         {
@@ -32,7 +32,7 @@ const ItemListContainer = () => {
                 return <Item pelicula={pelicula}/>
             })
         }
-    </div>
-    )}
+ </div>
+)}
 
 export default ItemListContainer
