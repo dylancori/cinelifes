@@ -15,7 +15,7 @@ const ItemListContainer = () => {
                 resolve(newPelicula);
             },500)
         } else {
-            resolve(peliculas);
+            resolve(peliculas); 
         }  
 
     })
