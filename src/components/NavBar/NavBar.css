@@ -1,7 +1,13 @@
 .navbar{
-    background-color: blanchedalmond;
+    background-color: grey;
     min-height: 100px;
 }
 .navbar__menu{
     margin: 16px;
+}
+.navbar__generos{
+    display: block;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }

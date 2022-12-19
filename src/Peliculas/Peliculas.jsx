@@ -19,7 +19,7 @@ const Peliculas = () => {
       <h1>peliculas</h1>
       {
         peliculas.map((pelicula)=>{
-            return <div> <Link to={`/Detallespelicula/${pelicula.id}`}>{pelicula.nombre}</Link>    </div>
+            return <div> <Link to={`/Detallespelicula/${pelicula.id}`}>{pelicula.nombre}</Link> </div>
 
         })
       }

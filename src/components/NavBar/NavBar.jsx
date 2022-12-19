@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget';
 
 
 export const NavBar = ({menus,generos}) =>{
@@ -13,14 +14,15 @@ export const NavBar = ({menus,generos}) =>{
     }
     {
       generos.map((genero)=>{
-        return <Link className='navbar__menu' to={`/generos/${genero.id}`}>{genero.nombre}</Link>
+        return <Link className='navbar__generos' to={`/generos/${genero.id}`}>{genero.nombre}</Link>
     })
     
     }
-    
+      <CartWidget/>
     </div>
-    
+  
     );
+    
 }
 
 export default NavBar;

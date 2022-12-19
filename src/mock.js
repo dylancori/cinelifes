@@ -22,7 +22,7 @@ export const peliculas =[
     {name:'cars',
     category:3,
     id:1,
-    detalles:'pelicula animada',
+    detalles:"pelicula animada",
     img:"https://acnews.blob.core.windows.net/imgnews/large/25024_9104139147.jpg"
 },
 {name:'fragmentado',
