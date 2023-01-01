@@ -1,5 +1,26 @@
-.IconCart{
-    width: 50px;
-    height: 50px;
+.boton__carrito{
+    width: 30px;
+    height: 30px;
+
+}
+.pos__carrito{
     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-end;
+}
+
+.cart__count{
+    background-color: red;
+    margin: 10px;
+    padding: 8px;
+    color: wheat;
+    border-radius: 15px;
+  
+    
+
+}
+.cartt{
+    border-radius: 15px;
 }

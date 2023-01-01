@@ -26,4 +26,32 @@ const ItemDetailContainer = () => {
       }
       
       export default ItemDetailContainer
+
+      // const ItemDetailContainer = () => {
+
+      //   const [filtroProducto, setFiltroProducto] = useState({});
+      //   const [busquedaProducto, setBusquedaProducto] = useState(true)
+      //   const { productosid } = useParams()
+      
+      //   useEffect(() => {
+      //     const querydb = getFirestore();
+      //     const queryDoc = doc(querydb, 'productos', productosid)
+      //     getDoc(queryDoc)
+      //       .then(res => !res.exists() ? setBusquedaProducto(false) : setFiltroProducto({ id: res.id, ...res.data() }))
+      
+      //   }, [])
+      
+      //   if (busquedaProducto === false) {
+      //     return (
+      //       <>
+      //         <ErrorProducto />
+      //       </>
+      //     )
+      //   } else {
+      //     return (
+      //       <ItemDetail filtroProducto={filtroProducto} />
+      //     )
+      //   }
+      // }
+      // export default ItemDetailContainer
       
