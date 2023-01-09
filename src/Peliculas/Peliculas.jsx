@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 const Peliculas = () => {
-  const peliculas =[
+  const generos =[
     {
       id:'1',
       nombre:'terror'
@@ -18,8 +18,8 @@ const Peliculas = () => {
     <div>
       <h1>peliculas</h1>
       {
-        peliculas.map((pelicula)=>{
-            return <div> <Link to={`/Detallespelicula/${pelicula.id}`}>{pelicula.nombre}</Link> </div>
+        generos.map((genero)=>{
+            return <div> <Link to={`/Detallesgenero/${genero.id}`}>{genero.nombre}</Link> </div>
 
         })
       }
